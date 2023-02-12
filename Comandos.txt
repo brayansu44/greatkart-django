@@ -1,0 +1,2 @@
+Para recopilar static
+python manage.py collectstatic
