@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -147,4 +148,4 @@ EMAIL_HOST_USER = 'brayansayrez400@gmail.com'
 EMAIL_HOST_PASSWORD = 'ipnutulhswwakngl'
 EMAIL_USE_TLS = True
 
-
+DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
